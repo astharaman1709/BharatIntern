@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(223, 223, 113);
+    display: grid;
+    place-items: center;
+  width: 100vw;
+  height: 100vh;  
+}
+.border{
+ border: 2px solid red;
+}
+
+.pad0{
+    padding: 0px;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+} 
+
+form{
+  background-color: #fab1a0;
+padding: 80px;
+width: 50%;
+margin: 100px auto;
+text-align: center;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+-moz-box-shadow: 0 10px 6px -6px #777;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#tempCalc label{
+  font-size: 30px;
+}
+#temp{
+  border:none;
+  padding: 10px;
+  height: 40px;
+  margin-top: 20px;
+  width: 100px;
+  font-size: 20px;
+}
+#temp_diff{
+  height: 40px;
+  border:none;
+  margin-top:20px;
+  font-size:15px;
+  vertical-align:top;
+  text-align: center;
+}
+[type="submit"]{
+  height: 40px;
+  margin: 20px;
+  width: 80px;
+  font-size: 10px;
+  border: none;
+  background-color: #000;
+  color: #ffffff;
+  cursor: pointer;
+}
+#resultContainer {
+  font-size: 35px;
+}

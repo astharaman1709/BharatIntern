@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tempature convertor</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+
+  <body>
+      <form id="tempCalc" onsubmit="calculateTemp(); return false">
+      
+        <label for="temp">Please enter the Tempature to convert.</label><br/>
+      <input type="number" name="temp" id="temp">
+      
+      <select name="temp_diff" id="temp_diff">
+        <option value="cel">°Celsius</option>
+        <option value="fah">°Fahrenheit</option>
+        <option value="Kel">°Kelvin</option>
+
+      </select><br/>
+       <input type="submit" name="temp" placeholder="submit"> <br/>
+      <span id="resultContainer"></span> 
+      </form>
+
+
+    <script src="https://kit.fontawesome.com/17a6b59347.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
